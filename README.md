@@ -1,6 +1,20 @@
 # collection-paralell
 Collection of p5 sketches
 
+# Recursive leaf, colored
+
+## Poem
+```
+Dear Computer 
+Each color in the list is redefined as the color with a little random variation. 
+Please define a shape as a fractal of the shape. 
+Each shape moves the position randomly "along the recursion". 
+Please define grid as randomly colored squares. 
+Use shape and grid, then save an image for us. 
+Thank you ("200 OK").
+ ```
+
+## Code
 ```javascript
 /** Dear Computer 
  * please imagine a list with four specific colors. 
@@ -60,5 +74,5 @@ function setup() {
 }
 ```
 
-# Hängevorschlag
+# Context rendering
 ![alt](shapef.png)
