@@ -1,7 +1,7 @@
 # collection-paralell
 Collection of p5 sketches
 
-´´´javaScript
+´´´javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(250, 230, 240);
@@ -52,5 +52,4 @@ function setup() {
   
   save("leaf.jpg")
 }
-´´´
 ´´´
