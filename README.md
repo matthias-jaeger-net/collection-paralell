@@ -16,17 +16,16 @@ Thank you ("200 OK").
 
 ## Code
 ```javascript
-/** Dear Computer 
- * please imagine a list with four specific colors. 
- * Each color in the list is redefined as the color with a little random variation. 
- * Please define a shape as a fractal of the shape. 
- * Each shape moves the position randomly "along the recursion". 
- * Please define grid as randomly colored squares. 
- * Use shape and grid, then save an image for us. 
- * Thank you ("200 OK").
+/** 
+ * Recursive leaf, colored
+ * P5.js sketch with SVG runtime:
+ *  - https://editor.p5js.org
+ *  - https://github.com/zenozeng/p5.js-svg
+ *
+ * @author Matthias Jäger, Graz 2022
+ * @licence MIT
  */
 
-// P5 & p5.js-svg
 function setup() {
   createCanvas(800, 800, SVG);
   background(250, 230, 240);
